@@ -1,0 +1,9 @@
+This web app require python 3.x version,Flask and Flask-SQLAlchemy
+
+here is the step to browse the web app,First need to create a vitrual environment by typing "python -m venv env" to create the virtual environment then you need to type ".\env\Scripts\activate" to activate it,after that you need to install the required packages by typing"pip install Flask Flask-SQLAlchemy"
+,then you can run it with "python app.py",if  it is successfully run in your pc then you could open your web browser and navigate to http://127.0.0.1:5000/.
+And if you want to add more recipe with ingredient you could change the code and type "http://127.0.0.1:5000/add_sample_data"
+tp update the databasd
+type"http://127.0.0.1:5000/add
+" to add recipe and the same time you need to add a image which name is same with the recipe you insert in the "restaurant_app\static\images"
+

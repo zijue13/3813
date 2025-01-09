@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Dish</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #444;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input[type="text"] {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 0.5rem;
+            background-color: #ff6f61;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #e55d50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Add New Dish</h2>
+        <form method="POST">
+            <input type="text" name="name" placeholder="Dish Name" required>
+            <input type="text" name="ingredients" placeholder="Ingredients (comma separated)" required>
+            <input type="text" name="image_filename" placeholder="Image Filename (e.g., dish.jpg)" required>
+            <button type="submit">Add Dish</button>
+        </form>
+    </div>
+</body>
+</html>
